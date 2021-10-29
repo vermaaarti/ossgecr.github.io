@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ossgecr.github.io/static/css/main.463ea716.chunk.css",
-    "main.js": "/ossgecr.github.io/static/js/main.4b0e8583.chunk.js",
-    "main.js.map": "/ossgecr.github.io/static/js/main.4b0e8583.chunk.js.map",
-    "runtime-main.js": "/ossgecr.github.io/static/js/runtime-main.e9f383dd.js",
-    "runtime-main.js.map": "/ossgecr.github.io/static/js/runtime-main.e9f383dd.js.map",
-    "static/css/2.0a9ec390.chunk.css": "/ossgecr.github.io/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.83405f86.chunk.js": "/ossgecr.github.io/static/js/2.83405f86.chunk.js",
-    "static/js/2.83405f86.chunk.js.map": "/ossgecr.github.io/static/js/2.83405f86.chunk.js.map",
-    "index.html": "/ossgecr.github.io/index.html",
-    "static/css/2.0a9ec390.chunk.css.map": "/ossgecr.github.io/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.463ea716.chunk.css.map": "/ossgecr.github.io/static/css/main.463ea716.chunk.css.map",
-    "static/js/2.83405f86.chunk.js.LICENSE.txt": "/ossgecr.github.io/static/js/2.83405f86.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.463ea716.chunk.css",
+    "main.js": "/static/js/main.4b0e8583.chunk.js",
+    "main.js.map": "/static/js/main.4b0e8583.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9c4006fd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9c4006fd.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.83405f86.chunk.js": "/static/js/2.83405f86.chunk.js",
+    "static/js/2.83405f86.chunk.js.map": "/static/js/2.83405f86.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.463ea716.chunk.css.map": "/static/css/main.463ea716.chunk.css.map",
+    "static/js/2.83405f86.chunk.js.LICENSE.txt": "/static/js/2.83405f86.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e9f383dd.js",
+    "static/js/runtime-main.9c4006fd.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.83405f86.chunk.js",
     "static/css/main.463ea716.chunk.css",
