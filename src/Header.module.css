@@ -6,9 +6,8 @@ body {
 }
 
 .header {
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
-  /* display: flex; */
-  /* align-items: center; */
   justify-content: stretch;
 }
 
@@ -71,9 +70,9 @@ body {
   color: #000;
 }
 
-.card:active:after {
+/* .card:active:after {
   background: transparent;
-}
+} */
 
 .card:hover:before {
   opacity: 1;
