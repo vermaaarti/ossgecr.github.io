@@ -69,15 +69,15 @@ body {
   color: #000;
 }
 
-.card:active:after {
+/* .card:active:after {
   background: transparent;
-}
+} */
 
 .card:hover:before {
   opacity: 1;
 }
 
-/* .card:after {
+.card:after {
   z-index: -1;
   content: "";
   position: absolute;
@@ -87,7 +87,7 @@ body {
   left: 0;
   top: 0;
   border-radius: 10px;
-} */
+}
 
 @keyframes glowing {
   0% {
