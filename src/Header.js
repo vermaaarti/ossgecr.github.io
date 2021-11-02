@@ -53,7 +53,7 @@ function Header() {
           </Container>
         </Navbar>
       </div>
-      <Switch>
+      {/* <Switch>
         <Route path="/" exact />
         <Route path="/events" exact>
           <Events />
@@ -63,7 +63,7 @@ function Header() {
         </Route>
         <Route path="/about" exact></Route>
         <Route path="/contact" exact></Route>
-      </Switch>
+      </Switch> */}
     </>
   );
 }
