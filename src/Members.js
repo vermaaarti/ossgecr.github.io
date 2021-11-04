@@ -1,9 +1,5 @@
 function Members() {
-    return (
-        <div>
-            None has joined yet.
-        </div>
-    );
+  return <div>Nothing here yet.</div>;
 }
 
 export default Members;

@@ -1,9 +1,5 @@
 function Events() {
-    return (
-        <div>
-            Nothing here yet.
-        </div>
-    );
+  return <div>Nothing here yet.</div>;
 }
 
 export default Events;
