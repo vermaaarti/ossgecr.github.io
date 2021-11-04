@@ -1,8 +1,7 @@
-import Events from "./Events";
-import Members from "./Members";
 import styles from "./Header.module.css";
-import { Link, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";
 import { Nav, Navbar, Container } from "react-bootstrap";
 
 function Header() {
@@ -53,17 +52,6 @@ function Header() {
           </Container>
         </Navbar>
       </div>
-      {/* <Switch>
-        <Route path="/" exact />
-        <Route path="/events" exact>
-          <Events />
-        </Route>
-        <Route path="/members" exact>
-          <Members />
-        </Route>
-        <Route path="/about" exact></Route>
-        <Route path="/contact" exact></Route>
-      </Switch> */}
     </>
   );
 }
