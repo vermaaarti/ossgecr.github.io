@@ -13,7 +13,8 @@ function Header() {
           expand="lg"
           bg="dark"
           variant="dark"
-          fixed="top"
+          // sticky="top"
+          // fixed="sticky"
         >
           <Container>
             <Navbar.Brand className="me-auto">
