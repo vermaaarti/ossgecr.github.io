@@ -1,8 +1,6 @@
-import styles from "./Header.module.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { Nav, Navbar, Container } from "react-bootstrap";
+import styles from "./Header.module.css";
 
 function Header() {
   return (
@@ -14,7 +12,7 @@ function Header() {
           bg="dark"
           variant="dark"
           // sticky="top"
-          // fixed="sticky"
+          fixed="top"
         >
           <Container>
             <Navbar.Brand className="me-auto">
@@ -44,7 +42,7 @@ function Header() {
                 <Nav className="m-auto">
                   <Nav.Link>
                     <div className={styles.card}>
-                      <Link to="/login">Login</Link>
+                      {/* <Link to="/login">Login</Link> */}
                     </div>
                   </Nav.Link>
                 </Nav>
