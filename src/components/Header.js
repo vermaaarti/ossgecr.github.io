@@ -6,13 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function Header() {
   return (
     <div className={styles.header}>
-      <Navbar
-        collapseOnSelect
-        expand="lg"
-        bg="dark"
-        variant="dark"
-        // fixed="top"
-      >
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
         <Container>
           <Navbar.Brand className="me-auto">
             <div className={styles.logo}>
