@@ -14,6 +14,7 @@ function Header() {
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="m-auto">
               <Nav.Link>
