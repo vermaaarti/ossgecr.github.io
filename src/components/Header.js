@@ -9,11 +9,9 @@ function Header() {
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
         <Container>
           <Navbar.Brand className="me-auto">
-            <div className={styles.logo}>
-              <Link to="/" exact>
-                <div className={styles.logo}>OSS</div>
-              </Link>
-            </div>
+            <Link to="/" exact>
+              <div className={styles.logo}>OSS</div>
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
