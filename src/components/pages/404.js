@@ -11,7 +11,7 @@ function Errorpage() {
             You&#x27;re alone here
           </h1>
           <p class="font-extrabold text-8xl my-44 text-white animate-bounce">
-            Error 404
+            404
           </p>
         </div>
       </div>
