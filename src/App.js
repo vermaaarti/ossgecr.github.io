@@ -6,6 +6,7 @@ import Contact from "./components/pages/Contact";
 import Comingsoon from "./components/pages/Comingsoon";
 import Loginpage from "./components/pages/Loginpage";
 import Errorpage from "./components/pages/404";
+import Projects from "./components/pages/Projects";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/" component={Comingsoon} />
         <Route exact path="/events" component={Events} />
         <Route exact path="/members" component={Members} />
+        <Route exact path="/projects" component={Projects} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/login" component={Loginpage} />
