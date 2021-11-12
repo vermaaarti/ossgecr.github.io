@@ -24,6 +24,9 @@ function Header() {
                 <Link to="/members">Members</Link>
               </Nav.Link>
               <Nav.Link>
+                <Link to="/projects">Projects</Link>
+              </Nav.Link>
+              <Nav.Link>
                 <Link to="/about">About</Link>
               </Nav.Link>
               <Nav.Link>
