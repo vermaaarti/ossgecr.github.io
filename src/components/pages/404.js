@@ -1,6 +1,6 @@
 import errorPageBG from "./images/8.svg";
 
-function Errorpage() {
+const Errorpage = () => {
   return (
     <div class="bg-indigo-900 relative overflow-hidden h-screen">
       {/* eslint-disable-next-line */}
@@ -18,6 +18,6 @@ function Errorpage() {
       </div>
     </div>
   );
-}
+};
 
 export default Errorpage;

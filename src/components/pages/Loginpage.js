@@ -2,7 +2,7 @@ import "./style/centerContent.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Form, Button } from "react-bootstrap";
 
-function Loginpage() {
+const Loginpage = () => {
   return (
     <div className="centcnt">
       <Form>
@@ -22,6 +22,6 @@ function Loginpage() {
       </Form>
     </div>
   );
-}
+};
 
 export default Loginpage;

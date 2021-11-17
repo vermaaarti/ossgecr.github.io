@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function Header() {
+const Header = () => {
   return (
     <div className={styles.header}>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
@@ -47,6 +47,6 @@ function Header() {
       </Navbar>
     </div>
   );
-}
+};
 
 export default Header;

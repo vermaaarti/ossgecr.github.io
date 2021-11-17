@@ -9,7 +9,7 @@ import Errorpage from "./components/pages/404";
 import Projects from "./components/pages/Projects";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <Header />
@@ -25,6 +25,6 @@ function App() {
       </Switch>
     </BrowserRouter>
   );
-}
+};
 
 export default App;
