@@ -1,8 +1,6 @@
-import "./style/centerContent.css";
-
 const Contact = () => {
   return (
-    <div className="centcnt">
+    <div>
       Contact information like mail, phone, classroom number, etc. here.
     </div>
   );
