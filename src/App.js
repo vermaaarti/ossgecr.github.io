@@ -13,16 +13,14 @@ const App = () => {
   return (
     <BrowserRouter>
       <Header />
-      {/* <Switch>
+      <Switch>
         <Route exact path="/" component={Comingsoon} />
         <Route exact path="/events" component={Events} />
-        <Route exact path="/members" component={Members} />
         <Route exact path="/projects" component={Projects} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/members" component={Members} />
         <Route exact path="/login" component={Loginpage} />
         <Route path="" component={Errorpage} />
-      </Switch> */}
+      </Switch>
     </BrowserRouter>
   );
 };
