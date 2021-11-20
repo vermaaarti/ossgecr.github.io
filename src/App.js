@@ -13,7 +13,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Header />
-      <Switch>
+      {/* <Switch>
         <Route exact path="/" component={Comingsoon} />
         <Route exact path="/events" component={Events} />
         <Route exact path="/members" component={Members} />
@@ -22,7 +22,7 @@ const App = () => {
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/login" component={Loginpage} />
         <Route path="" component={Errorpage} />
-      </Switch>
+      </Switch> */}
     </BrowserRouter>
   );
 };
