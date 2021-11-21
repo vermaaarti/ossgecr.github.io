@@ -12,7 +12,7 @@ const Header = () => {
           <Link to="/projects">Projects</Link>
         </button>
         <button className="btn btn-sm btn-ghost">
-          <Link to="/members">Members</Link>
+          <Link to="/about">About</Link>
         </button>
       </div>
 
@@ -49,7 +49,7 @@ const Header = () => {
             </li>
             <li>
               <a>
-                <Link to="/members">Members</Link>
+                <Link to="/about">About</Link>
               </a>
             </li>
             <li>
