@@ -1,4 +1,4 @@
-import errorPageBG from "./images/8.svg";
+import errorPageBG from "../images/404bg.svg";
 
 const Errorpage = () => {
   return (
