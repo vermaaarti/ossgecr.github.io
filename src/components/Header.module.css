@@ -1,11 +1,10 @@
-.navleftmob,
 .navrightmob,
-.logomob {
+.logomob,
+.github {
   display: none;
 }
 
 .header,
-.navleft,
 .logo,
 .navright {
   display: flex;
@@ -16,50 +15,50 @@
   border-bottom: 2px solid black;
 }
 
-.navleft {
-  justify-content: flex-end;
-  width: calc(40%);
-}
-
 .logo {
   justify-content: center;
-  width: calc(20%);
+  width: calc(30%);
 }
 
 .navright {
-  justify-content: flex-start;
-  width: calc(40%);
-  gap: 15px;
+  justify-content: center;
+  width: calc(65%);
+  gap: 10px;
 }
 
-@media screen and (max-width: 680px) {
-  .navleft,
+@media screen and (max-width: 730px) {
   .navright {
     display: none;
   }
 
   .header,
-  .navleftmob,
   .logo,
+  .github,
   .navrightmob {
     display: flex;
     margin: auto;
   }
 
-  .navleftmob,
+  .logo {
+    width: calc(60%);
+    margin-left: calc(20%);
+    justify-content: flex-start;
+  }
+
+  .github {
+    width: calc(20%);
+    align-items: center;
+    justify-content: flex-end;
+  }
+
   .navrightmob {
     align-items: center;
-    justify-content: center;
-    width: calc(25%);
+    width: calc(20%);
   }
 
   .menu {
+    justify-content: center;
     position: absolute;
     overflow: visible;
-  }
-
-  .logo {
-    justify-content: center;
-    width: calc(50%);
   }
 }

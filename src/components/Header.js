@@ -4,71 +4,15 @@ import styles from "./Header.module.css";
 const Header = () => {
   return (
     <div className={styles.header}>
-      <div className={styles.navleft}>
-        <button className="btn btn-sm btn-ghost">
-          <Link to="/events">Events</Link>
-        </button>
-        <button className="btn btn-sm btn-ghost">
-          <Link to="/projects">Projects</Link>
-        </button>
-        <button className="btn btn-sm btn-ghost">
-          <Link to="/about">About</Link>
-        </button>
-      </div>
-
-      <div className={styles.navleftmob}>
-        <div className={`dropdown dropdown-right ${styles.menu}`}>
-          <div tabindex="0" className="m-1 btn btn-ghost btn-sm">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              className="inline-block w-6 h-6 stroke-current"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              ></path>
-            </svg>
-          </div>
-          <ul
-            tabindex="0"
-            className="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-35"
-          >
-            <li>
-              <a>
-                <Link to="/events">Events</Link>
-              </a>
-            </li>
-            <li>
-              <a>
-                <Link to="/projects">Projects</Link>
-              </a>
-            </li>
-            <li>
-              <a>
-                <Link to="/about">About</Link>
-              </a>
-            </li>
-            <li>
-              <a>
-                <Link to="/">Blog</Link>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
       <div className={styles.logo}>
         <button className="btn btn-md btn-ghost">
           <Link to="/">OSS</Link>
         </button>
       </div>
 
-      <div className={styles.navrightmob}>
-        <button className={`btn btn-sm btn-ghost btn-circle ${styles.github}`}>
+      {/* for small screens */}
+      <div className={styles.github}>
+        <button className="btn btn-sm btn-ghost btn-circle">
           <Link
             to={{
               pathname: "https://github.com/ossgecr",
@@ -93,7 +37,64 @@ const Header = () => {
         </button>
       </div>
 
+      <div className={styles.navrightmob}>
+        <div className={styles.menu}>
+          <div className="dropdown dropdown-end">
+            <div tabindex="0" className="m-1 btn btn-ghost btn-sm">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                className="inline-block w-6 h-6 stroke-current"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              className="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-35"
+            >
+              <li>
+                <a>
+                  <Link to="/events">Events</Link>
+                </a>
+              </li>
+              <li>
+                <a>
+                  <Link to="/projects">Projects</Link>
+                </a>
+              </li>
+              <li>
+                <a>
+                  <Link to="/about">About</Link>
+                </a>
+              </li>
+              <li>
+                <a>
+                  <Link to="/">Blog</Link>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* for large screens */}
       <div className={styles.navright}>
+        <button className="btn btn-sm btn-ghost">
+          <Link to="/events">Events</Link>
+        </button>
+        <button className="btn btn-sm btn-ghost">
+          <Link to="/projects">Projects</Link>
+        </button>
+        <button className="btn btn-sm btn-ghost">
+          <Link to="/about">About</Link>
+        </button>
         <button className="btn btn-sm btn-outline">
           <Link
             to={{
