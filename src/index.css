@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 * {
-  overflow: hidden;
+  overflow: visible;
   box-sizing: border-box;
 }
