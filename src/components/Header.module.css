@@ -39,25 +39,24 @@
     margin: auto;
   }
 
-  .logo {
-    width: calc(60%);
-    margin-left: calc(20%);
-    justify-content: flex-start;
-  }
-
   .github {
     width: calc(20%);
-    align-items: center;
-    justify-content: flex-end;
+    /* align-items: center; */
+    justify-content: center;
+  }
+
+  .logo {
+    width: calc(60%);
+    justify-content: center;
   }
 
   .navrightmob {
     align-items: center;
+    justify-content: center;
     width: calc(20%);
   }
 
   .menu {
-    justify-content: center;
     position: absolute;
     overflow: visible;
   }
