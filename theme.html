@@ -1,0 +1,29 @@
+<html>
+    <head>
+
+<style>
+    .dark-mode {
+  background-color: black;
+  color: white;
+}
+
+</style>
+    </head>
+    <body>
+       
+   
+      <button  onclick="myFunction()">click me</button>  
+      <script>
+ document.getElementsByTagName('button')[0].textContent='dark-mode';
+function myFunction() {
+   var element = document.getElementsByTagName('body')[0];   
+   element.classList.toggle("dark-mode");
+   
+   var button = document.getElementsByTagName('button')[0];
+   if(button.textContent == 'dark-mode')button.textContent='white-mode';
+   else button.textContent='dark-mode';
+}  
+
+      </script>
+    </body>
+</html>
