@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "./images/logo.svg";
 import styles from "./Header.module.css";
 
 const Header = () => {
@@ -52,7 +53,9 @@ const Header = () => {
       </div>
       <div className={styles.logo}>
         <button className="btn btn-md btn-ghost">
-          <Link to="/">OSS</Link>
+          <Link to="/">
+            <img src={logo} />
+          </Link>
         </button>
       </div>
 
